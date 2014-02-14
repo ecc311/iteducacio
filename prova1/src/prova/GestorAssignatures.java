@@ -6,16 +6,16 @@ package prova;
  * @author eric
  * 
  */
-public class GestorAssignatures  {
+public class GestorAssignatures {
 
 	private Assignatura a = new Assignatura();
 
 	/**
 	 * @param codi
 	 *            the codi to set
-	 *@param nom
+	 * @param nom
 	 *            the nom to set
-	 *@param d
+	 * @param d
 	 *            the credits to set
 	 * 
 	 */
@@ -24,7 +24,7 @@ public class GestorAssignatures  {
 
 		this.a.setCodi(codi);
 		this.a.setNomAssignatura(nom);
-		//this.a.setCreditsAssignatura(d);
+		// this.a.setCreditsAssignatura(d);
 
 	}
 

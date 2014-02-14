@@ -22,8 +22,9 @@ public class Professor extends Persona {
 	}
 
 	/**
-	 * @param id the idPersona to set
-	 *            
+	 * @param id
+	 *            the idPersona to set
+	 * 
 	 */
 	public void setIdPersona(int id) {
 		this.id = id;
@@ -37,8 +38,9 @@ public class Professor extends Persona {
 	}
 
 	/**
-	 * @param nom the nom to set
-	 *            
+	 * @param nom
+	 *            the nom to set
+	 * 
 	 */
 	public void setNomPersona(String nom) {
 		this.nom = nom;
@@ -52,16 +54,16 @@ public class Professor extends Persona {
 	}
 
 	/**
-	 * @param edat the edat to set
-	 *            
+	 * @param edat
+	 *            the edat to set
+	 * 
 	 */
 	public void setEdatPersona(int edat) {
 		this.edat = edat;
 	}
 
 	@Override
-	public
-	String getGrupPersona() {
+	public String getGrupPersona() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -69,11 +71,11 @@ public class Professor extends Persona {
 	@Override
 	public void setGrupPersona() {
 		// TODO Auto-generated method stub
-		
+
 	}
+
 	@Override
-	public
-	String getPasswordPersona() {
+	public String getPasswordPersona() {
 		// TODO Auto-generated method stub
 		return this.password;
 	}
@@ -81,13 +83,14 @@ public class Professor extends Persona {
 	@Override
 	public void setPasswordPersona(String password) {
 		// TODO Auto-generated method stub
-		this.password=password;
+		this.password = password;
 	}
 
-	public String getHorariPersona(){return null;}
-
-	public void setHorariPersona(){}
-
+	public String getHorariPersona() {
+		return null;
 	}
 
+	public void setHorariPersona() {
+	}
 
+}

@@ -39,8 +39,9 @@ public class AlumneTarda extends Persona {
 	}
 
 	/**
-	 * @param nom the nom to set
-	 *            
+	 * @param nom
+	 *            the nom to set
+	 * 
 	 */
 	public void setNomPersona(String nom) {
 		this.nom = nom;
@@ -54,12 +55,14 @@ public class AlumneTarda extends Persona {
 	}
 
 	/**
-	 * @param edat the edat to set
-	 *            
+	 * @param edat
+	 *            the edat to set
+	 * 
 	 */
 	public void setEdatPersona(int edat) {
 		this.edat = edat;
 	}
+
 	/**
 	 * @return the grup
 	 */
@@ -75,6 +78,7 @@ public class AlumneTarda extends Persona {
 	public void setGrupPersona() {
 		this.grup = "Tarda";
 	}
+
 	/**
 	 * @return the horari
 	 */
@@ -90,6 +94,7 @@ public class AlumneTarda extends Persona {
 	public void setHorariPersona() {
 		this.horari = "15:00-20:00";
 	}
+
 	/**
 	 * @return the password
 	 */

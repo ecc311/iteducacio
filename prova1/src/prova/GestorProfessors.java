@@ -8,9 +8,9 @@ import prova.Professor;
  * @author eric
  * 
  */
-public class GestorProfessors{
-	
-	static int id=9000;
+public class GestorProfessors {
+
+	static int id = 9000;
 
 	public Professor professor = new Professor();
 
@@ -26,15 +26,15 @@ public class GestorProfessors{
 	/**
 	 * @param codi
 	 *            the codi to set
-	 *@param nom
+	 * @param nom
 	 *            the nom to set
-	 *@param edat
+	 * @param edat
 	 *            the edat to set
 	 * 
 	 */
-	public void setProfessor(String nom, int edat,String password) {
-		
-		id=id+1;
+	public void setProfessor(String nom, int edat, String password) {
+
+		id = id + 1;
 		this.professor.setIdPersona(id);
 		this.professor.setNomPersona(nom);
 		this.professor.setEdatPersona(edat);

@@ -1,4 +1,5 @@
 package prova;
+
 /**
  * Clase que descriu els atributs de l'Assignatura
  * 
@@ -7,11 +8,12 @@ package prova;
  */
 
 public class Assignatura {
-	
+
 	private int codi;
 	private String nom;
-	//private double credits;
-	
+
+	// private double credits;
+
 	/**
 	 * @return the codi
 	 */
@@ -20,8 +22,9 @@ public class Assignatura {
 	}
 
 	/**
-	 * @param codi the codi to set
-	 *            
+	 * @param codi
+	 *            the codi to set
+	 * 
 	 */
 	public void setCodi(int codi) {
 		this.codi = codi;
@@ -35,8 +38,9 @@ public class Assignatura {
 	}
 
 	/**
-	 * @param nom the nom to set
-	 *            
+	 * @param nom
+	 *            the nom to set
+	 * 
 	 */
 	public void setNomAssignatura(String nom) {
 		this.nom = nom;
@@ -45,20 +49,17 @@ public class Assignatura {
 	/**
 	 * @return the credits
 	 */
-	
-	/*
-	public double getCreditsAssignatura() {
-		return this.credits;
-	}
 
-	/**
+	/*
+	 * public double getCreditsAssignatura() { return this.credits; }
+	 * 
+	 * /**
+	 * 
 	 * @param credits the credits to set
-	 *            
 	 */
 	/*
-	public void setCreditsAssignatura(double credits) {
-		this.credits = credits;
-	}*/
-
+	 * public void setCreditsAssignatura(double credits) { this.credits =
+	 * credits; }
+	 */
 
 }
