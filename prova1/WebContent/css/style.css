@@ -1053,7 +1053,7 @@
 	}
 
 	#logo {
-		position: absolute;
+		position: relative;
 		left: 1em;
 		top: 0;
 		height: 3em;

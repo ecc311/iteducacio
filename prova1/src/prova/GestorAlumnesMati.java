@@ -1,42 +1,36 @@
 package prova;
 
 public class GestorAlumnesMati {
-	
-private AlumneMati alumne=new AlumneMati();
-	
-	public AlumneMati getAlumne()
-	{
 
+	private AlumneMati alumne = new AlumneMati();
 
-			return this.alumne;
+	public AlumneMati getAlumne() {
 
+		return this.alumne;
 
 	}
+
 	/**
 	 * @param codi
 	 *            the codi to set
-	 *@param nom
+	 * @param nom
 	 *            the nom to set
-	 *@param edat
+	 * @param edat
 	 *            the edat to set
-	 **@param grup
+	 ** @param grup
 	 *            the grup to set
 	 * 
 	 */
-	public void setAlumne(int codi,String nom,int edat,int tipus,String password)
-	{
-			   		
-			   		this.alumne.setIdPersona(codi);
-					this.alumne.setNomPersona(nom);
-					this.alumne.setEdatPersona(edat);
-					this.alumne.setGrupPersona();
-					this.alumne.setHorariPersona();
-					this.alumne.setPasswordPersona(password);
-		   
-		   
-		  }  
-		
+	public void setAlumne(int codi, String nom, int edat, int tipus,
+			String password) {
+
+		this.alumne.setIdPersona(codi);
+		this.alumne.setNomPersona(nom);
+		this.alumne.setEdatPersona(edat);
+		this.alumne.setGrupPersona();
+		this.alumne.setHorariPersona();
+		this.alumne.setPasswordPersona(password);
+
+	}
+
 }
-
-
-
